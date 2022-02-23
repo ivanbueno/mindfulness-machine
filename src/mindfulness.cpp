@@ -120,9 +120,9 @@ void setRandomBreathingPattern() {
       // 1-2  Paced Breathing, stress reduction
       randomizeStones();
       inhale = 3;
-      inhale_retention = 1000;
+      inhale_retention = 500;
       delayInhale.setdelay(inhale_retention);
-      exhale = 1.5;
+      exhale = 6;
       exhale_retention = 500;
       delayExhale.setdelay(exhale_retention);
       break;
